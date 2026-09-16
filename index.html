@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Site Pessoal</title>
+
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho do site -->
+    <header class="header">
+
+        <!-- Nome ou logo -->
+        <a href="#" class="logo">MeuSite</a>
+
+        <!-- Botão do menu para telas pequenas -->
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <!-- Navegação principal -->
+        <nav class="nav" id="nav">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+            <button id="temaBtn" class="tema-btn">🌙</button>
+        </nav>
+
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="section sobre">
+
+            <div>
+                <h1>Olá, eu sou Fernando!</h1>
+
+                <p>
+                    Sou estudante e estou aprendendo desenvolvimento web.
+                    Gosto de criar sites simples, funcionais e bonitos.
+                </p>
+
+                <a href="#projetos" class="botao">
+                    Ver meus projetos
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Seção de Projetos -->
+        <section id="projetos" class="section">
+
+            <h2>Meus Projetos</h2>
+
+            <div class="projetos">
+
+                <!-- Primeiro card -->
+                <article class="card">
+                    <h3>Projeto 1</h3>
+
+                    <p>
+                        Um site simples criado com HTML e CSS.
+                    </p>
+
+                    <a href="#">Ver projeto</a>
+                </article>
+
+                <!-- Segundo card -->
+                <article class="card">
+                    <h3>Projeto 2</h3>
+
+                    <p>
+                        Uma página responsiva para praticar JavaScript.
+                    </p>
+
+                    <a href="#">Ver projeto</a>
+                </article>
+
+                <!-- Terceiro card -->
+                <article class="card">
+                    <h3>Projeto 3</h3>
+
+                    <p>
+                        Um pequeno formulário com validação.
+                    </p>
+
+                    <a href="#">Ver projeto</a>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="section contato">
+
+            <h2>Entre em contato</h2>
+
+            <!-- Formulário -->
+            <form id="formContato">
+
+                <label for="nome">Nome</label>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                >
+
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Digite seu e-mail"
+                >
+
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                    id="mensagem"
+                    rows="5"
+                    placeholder="Digite sua mensagem"
+                ></textarea>
+
+                <button type="submit" class="botao">
+                    Enviar mensagem
+                </button>
+
+                <!-- Mensagem exibida pelo JavaScript -->
+                <p id="mensagemForm"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Rodapé -->
+    <footer class="footer">
+
+        <p>© 2026 - Meu Site Pessoal</p>
+
+        <!-- Links das redes sociais -->
+        <div class="redes">
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+
+    </footer>
+
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
